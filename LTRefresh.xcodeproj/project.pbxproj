@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		A20E19341CFAE0D200FD1569 /* prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.h; sourceTree = "<group>"; };
-		A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTRandomRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2D11CF7E68100605E4D /* LTRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A2F2D51CF7E68100605E4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2A2F2D71CF7E68100605E4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2A2F2D81CF7E68100605E4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		A2A2F2E01CF7E68100605E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A2F2E31CF7E68100605E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A2F2E51CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRandomRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2EA1CF7E68100605E4D /* LTRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A2F2EE1CF7E68100605E4D /* RefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTests.m; sourceTree = "<group>"; };
 		A2A2F2F01CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRandomRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2F51CF7E68100605E4D /* LTRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A2F2F91CF7E68100605E4D /* RefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshUITests.m; sourceTree = "<group>"; };
 		A2A2F2FB1CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2A2F3111CF8189300605E4D /* LTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTRefresh.h; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		A2A2F2C81CF7E68100605E4D = {
 			isa = PBXGroup;
 			children = (
-				A2A2F2D31CF7E68100605E4D /* LTRandomRefresh */,
+				A2A2F2D31CF7E68100605E4D /* LTRefresh */,
 				A2A2F2ED1CF7E68100605E4D /* RefreshTests */,
 				A2A2F2F81CF7E68100605E4D /* RefreshUITests */,
 				A2A2F2D21CF7E68100605E4D /* Products */,
@@ -104,14 +104,14 @@
 		A2A2F2D21CF7E68100605E4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */,
-				A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */,
-				A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */,
+				A2A2F2D11CF7E68100605E4D /* LTRefresh.app */,
+				A2A2F2EA1CF7E68100605E4D /* LTRefresh.xctest */,
+				A2A2F2F51CF7E68100605E4D /* LTRefresh.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2A2F2D31CF7E68100605E4D /* LTRandomRefresh */ = {
+		A2A2F2D31CF7E68100605E4D /* LTRefresh */ = {
 			isa = PBXGroup;
 			children = (
 				A2A2F30D1CF811F400605E4D /* LTRefresh */,
@@ -127,7 +127,7 @@
 				A2A2F2E51CF7E68100605E4D /* Info.plist */,
 				A2A2F2D41CF7E68100605E4D /* Supporting Files */,
 			);
-			name = LTRandomRefresh;
+			name = LTRefresh;
 			path = Refresh;
 			sourceTree = "<group>";
 		};
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */ = {
+		A2A2F2D01CF7E68100605E4D /* LTRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefresh" */;
+			buildConfigurationList = A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefresh" */;
 			buildPhases = (
 				A2A2F2CD1CF7E68100605E4D /* Sources */,
 				A2A2F2CE1CF7E68100605E4D /* Frameworks */,
@@ -186,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = LTRandomRefresh;
+			name = LTRefresh;
 			productName = Refresh;
-			productReference = A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */;
+			productReference = A2A2F2D11CF7E68100605E4D /* LTRefresh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2A2F2E91CF7E68100605E4D /* LTRandomRefreshTests */ = {
+		A2A2F2E91CF7E68100605E4D /* LTRefreshTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshTests" */;
+			buildConfigurationList = A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefreshTests" */;
 			buildPhases = (
 				A2A2F2E61CF7E68100605E4D /* Sources */,
 				A2A2F2E71CF7E68100605E4D /* Frameworks */,
@@ -204,14 +204,14 @@
 			dependencies = (
 				A2A2F2EC1CF7E68100605E4D /* PBXTargetDependency */,
 			);
-			name = LTRandomRefreshTests;
+			name = LTRefreshTests;
 			productName = RefreshTests;
-			productReference = A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */;
+			productReference = A2A2F2EA1CF7E68100605E4D /* LTRefresh.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A2A2F2F41CF7E68100605E4D /* LTRandomRefreshUITests */ = {
+		A2A2F2F41CF7E68100605E4D /* LTRefreshUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshUITests" */;
+			buildConfigurationList = A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefreshUITests" */;
 			buildPhases = (
 				A2A2F2F11CF7E68100605E4D /* Sources */,
 				A2A2F2F21CF7E68100605E4D /* Frameworks */,
@@ -222,9 +222,9 @@
 			dependencies = (
 				A2A2F2F71CF7E68100605E4D /* PBXTargetDependency */,
 			);
-			name = LTRandomRefreshUITests;
+			name = LTRefreshUITests;
 			productName = RefreshUITests;
-			productReference = A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */;
+			productReference = A2A2F2F51CF7E68100605E4D /* LTRefresh.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRandomRefresh" */;
+			buildConfigurationList = A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRefresh" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,9 +265,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */,
-				A2A2F2E91CF7E68100605E4D /* LTRandomRefreshTests */,
-				A2A2F2F41CF7E68100605E4D /* LTRandomRefreshUITests */,
+				A2A2F2D01CF7E68100605E4D /* LTRefresh */,
+				A2A2F2E91CF7E68100605E4D /* LTRefreshTests */,
+				A2A2F2F41CF7E68100605E4D /* LTRefreshUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -335,12 +335,12 @@
 /* Begin PBXTargetDependency section */
 		A2A2F2EC1CF7E68100605E4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */;
+			target = A2A2F2D01CF7E68100605E4D /* LTRefresh */;
 			targetProxy = A2A2F2EB1CF7E68100605E4D /* PBXContainerItemProxy */;
 		};
 		A2A2F2F71CF7E68100605E4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */;
+			target = A2A2F2D01CF7E68100605E4D /* LTRefresh */;
 			targetProxy = A2A2F2F61CF7E68100605E4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,7 +454,7 @@
 				INFOPLIST_FILE = Refresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.Refresh;
-				PRODUCT_NAME = LTRandomRefresh;
+				PRODUCT_NAME = LTRefresh;
 			};
 			name = Debug;
 		};
@@ -465,7 +465,7 @@
 				INFOPLIST_FILE = Refresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.Refresh;
-				PRODUCT_NAME = LTRandomRefresh;
+				PRODUCT_NAME = LTRefresh;
 			};
 			name = Release;
 		};
@@ -476,8 +476,8 @@
 				INFOPLIST_FILE = RefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshTests;
-				PRODUCT_NAME = LTRandomRefresh;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRandomRefresh.app/LTRandomRefresh";
+				PRODUCT_NAME = LTRefresh;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRefresh.app/LTRefresh";
 			};
 			name = Debug;
 		};
@@ -488,8 +488,8 @@
 				INFOPLIST_FILE = RefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshTests;
-				PRODUCT_NAME = LTRandomRefresh;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRandomRefresh.app/LTRandomRefresh";
+				PRODUCT_NAME = LTRefresh;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRefresh.app/LTRefresh";
 			};
 			name = Release;
 		};
@@ -499,7 +499,7 @@
 				INFOPLIST_FILE = RefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshUITests;
-				PRODUCT_NAME = LTRandomRefresh;
+				PRODUCT_NAME = LTRefresh;
 				TEST_TARGET_NAME = Refresh;
 			};
 			name = Debug;
@@ -510,7 +510,7 @@
 				INFOPLIST_FILE = RefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshUITests;
-				PRODUCT_NAME = LTRandomRefresh;
+				PRODUCT_NAME = LTRefresh;
 				TEST_TARGET_NAME = Refresh;
 			};
 			name = Release;
@@ -518,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRandomRefresh" */ = {
+		A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A2F2FC1CF7E68100605E4D /* Debug */,
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefresh" */ = {
+		A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A2F2FF1CF7E68100605E4D /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshTests" */ = {
+		A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefreshTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A2F3021CF7E68100605E4D /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshUITests" */ = {
+		A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRefreshUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2A2F3051CF7E68100605E4D /* Debug */,

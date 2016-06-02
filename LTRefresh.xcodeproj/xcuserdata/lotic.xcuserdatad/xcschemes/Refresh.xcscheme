@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2A2F2D01CF7E68100605E4D"
                BuildableName = "LTRandomRefresh.app"
-               BlueprintName = "LTRandomRefresh"
-               ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+               BlueprintName = "LTRefresh"
+               ReferencedContainer = "container:LTRefresh.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2A2F2E91CF7E68100605E4D"
-               BuildableName = "LTRandomRefresh.xctest"
-               BlueprintName = "LTRandomRefreshTests"
-               ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+               BuildableName = "LTRefresh.xctest"
+               BlueprintName = "LTRefreshTests"
+               ReferencedContainer = "container:LTRefresh.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2A2F2F41CF7E68100605E4D"
-               BuildableName = "LTRandomRefresh.xctest"
-               BlueprintName = "LTRandomRefreshUITests"
-               ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+               BuildableName = "LTRefresh.xctest"
+               BlueprintName = "LTRefreshUITests"
+               ReferencedContainer = "container:LTRefresh.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2A2F2D01CF7E68100605E4D"
             BuildableName = "LTRandomRefresh.app"
-            BlueprintName = "LTRandomRefresh"
-            ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+            BlueprintName = "LTRefresh"
+            ReferencedContainer = "container:LTRefresh.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2A2F2D01CF7E68100605E4D"
             BuildableName = "LTRandomRefresh.app"
-            BlueprintName = "LTRandomRefresh"
-            ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+            BlueprintName = "LTRefresh"
+            ReferencedContainer = "container:LTRefresh.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2A2F2D01CF7E68100605E4D"
             BuildableName = "LTRandomRefresh.app"
-            BlueprintName = "LTRandomRefresh"
-            ReferencedContainer = "container:LTRandomRefresh.xcodeproj">
+            BlueprintName = "LTRefresh"
+            ReferencedContainer = "container:LTRefresh.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
