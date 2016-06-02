@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A2F2D61CF7E68100605E4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F2D51CF7E68100605E4D /* main.m */; };
+		A2A2F2D91CF7E68100605E4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F2D81CF7E68100605E4D /* AppDelegate.m */; };
+		A2A2F2DC1CF7E68100605E4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F2DB1CF7E68100605E4D /* ViewController.m */; };
+		A2A2F2DF1CF7E68100605E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A2F2DD1CF7E68100605E4D /* Main.storyboard */; };
+		A2A2F2E11CF7E68100605E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A2F2E01CF7E68100605E4D /* Assets.xcassets */; };
+		A2A2F2E41CF7E68100605E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A2F2E21CF7E68100605E4D /* LaunchScreen.storyboard */; };
+		A2A2F2EF1CF7E68100605E4D /* RefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F2EE1CF7E68100605E4D /* RefreshTests.m */; };
+		A2A2F2FA1CF7E68100605E4D /* RefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F2F91CF7E68100605E4D /* RefreshUITests.m */; };
+		A2A2F3131CF8189300605E4D /* LTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F3121CF8189300605E4D /* LTRefresh.m */; };
+		A2A2F3191CF820BD00605E4D /* UIScrollView+LTRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2F3181CF820BD00605E4D /* UIScrollView+LTRefreshView.m */; };
+		A2FDF2A51D0015310001A918 /* UITableView+LTRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FDF2A41D0015310001A918 /* UITableView+LTRefreshView.m */; };
+		A2FDF2A81D0015C80001A918 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FDF2A71D0015C80001A918 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A2F2EB1CF7E68100605E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A2F2C91CF7E68100605E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A2F2D01CF7E68100605E4D;
+			remoteInfo = Refresh;
+		};
+		A2A2F2F61CF7E68100605E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A2F2C91CF7E68100605E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A2F2D01CF7E68100605E4D;
+			remoteInfo = Refresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20E19341CFAE0D200FD1569 /* prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.h; sourceTree = "<group>"; };
+		A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTRandomRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2D51CF7E68100605E4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2A2F2D71CF7E68100605E4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2A2F2D81CF7E68100605E4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2A2F2DA1CF7E68100605E4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2A2F2DB1CF7E68100605E4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2A2F2DE1CF7E68100605E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A2F2E01CF7E68100605E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A2F2E31CF7E68100605E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A2F2E51CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRandomRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2EE1CF7E68100605E4D /* RefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTests.m; sourceTree = "<group>"; };
+		A2A2F2F01CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTRandomRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A2F2F91CF7E68100605E4D /* RefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshUITests.m; sourceTree = "<group>"; };
+		A2A2F2FB1CF7E68100605E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A2F3111CF8189300605E4D /* LTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTRefresh.h; sourceTree = "<group>"; };
+		A2A2F3121CF8189300605E4D /* LTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTRefresh.m; sourceTree = "<group>"; };
+		A2A2F3171CF820BD00605E4D /* UIScrollView+LTRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LTRefreshView.h"; sourceTree = "<group>"; };
+		A2A2F3181CF820BD00605E4D /* UIScrollView+LTRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LTRefreshView.m"; sourceTree = "<group>"; };
+		A2FDF2A31D0015310001A918 /* UITableView+LTRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LTRefreshView.h"; sourceTree = "<group>"; };
+		A2FDF2A41D0015310001A918 /* UITableView+LTRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LTRefreshView.m"; sourceTree = "<group>"; };
+		A2FDF2A61D0015C80001A918 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A2FDF2A71D0015C80001A918 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A2F2CE1CF7E68100605E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2E71CF7E68100605E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2F21CF7E68100605E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A2F2C81CF7E68100605E4D = {
+			isa = PBXGroup;
+			children = (
+				A2A2F2D31CF7E68100605E4D /* LTRandomRefresh */,
+				A2A2F2ED1CF7E68100605E4D /* RefreshTests */,
+				A2A2F2F81CF7E68100605E4D /* RefreshUITests */,
+				A2A2F2D21CF7E68100605E4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A2F2D21CF7E68100605E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */,
+				A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */,
+				A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A2F2D31CF7E68100605E4D /* LTRandomRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F30D1CF811F400605E4D /* LTRefresh */,
+				A2A2F2D71CF7E68100605E4D /* AppDelegate.h */,
+				A2A2F2D81CF7E68100605E4D /* AppDelegate.m */,
+				A2FDF2A61D0015C80001A918 /* TableViewController.h */,
+				A2FDF2A71D0015C80001A918 /* TableViewController.m */,
+				A2A2F2DA1CF7E68100605E4D /* ViewController.h */,
+				A2A2F2DB1CF7E68100605E4D /* ViewController.m */,
+				A2A2F2DD1CF7E68100605E4D /* Main.storyboard */,
+				A2A2F2E01CF7E68100605E4D /* Assets.xcassets */,
+				A2A2F2E21CF7E68100605E4D /* LaunchScreen.storyboard */,
+				A2A2F2E51CF7E68100605E4D /* Info.plist */,
+				A2A2F2D41CF7E68100605E4D /* Supporting Files */,
+			);
+			name = LTRandomRefresh;
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		A2A2F2D41CF7E68100605E4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F2D51CF7E68100605E4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2A2F2ED1CF7E68100605E4D /* RefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F2EE1CF7E68100605E4D /* RefreshTests.m */,
+				A2A2F2F01CF7E68100605E4D /* Info.plist */,
+			);
+			path = RefreshTests;
+			sourceTree = "<group>";
+		};
+		A2A2F2F81CF7E68100605E4D /* RefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2F2F91CF7E68100605E4D /* RefreshUITests.m */,
+				A2A2F2FB1CF7E68100605E4D /* Info.plist */,
+			);
+			path = RefreshUITests;
+			sourceTree = "<group>";
+		};
+		A2A2F30D1CF811F400605E4D /* LTRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				A20E19341CFAE0D200FD1569 /* prefix.h */,
+				A2FDF2A31D0015310001A918 /* UITableView+LTRefreshView.h */,
+				A2FDF2A41D0015310001A918 /* UITableView+LTRefreshView.m */,
+				A2A2F3171CF820BD00605E4D /* UIScrollView+LTRefreshView.h */,
+				A2A2F3181CF820BD00605E4D /* UIScrollView+LTRefreshView.m */,
+				A2A2F3111CF8189300605E4D /* LTRefresh.h */,
+				A2A2F3121CF8189300605E4D /* LTRefresh.m */,
+			);
+			name = LTRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefresh" */;
+			buildPhases = (
+				A2A2F2CD1CF7E68100605E4D /* Sources */,
+				A2A2F2CE1CF7E68100605E4D /* Frameworks */,
+				A2A2F2CF1CF7E68100605E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTRandomRefresh;
+			productName = Refresh;
+			productReference = A2A2F2D11CF7E68100605E4D /* LTRandomRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A2F2E91CF7E68100605E4D /* LTRandomRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshTests" */;
+			buildPhases = (
+				A2A2F2E61CF7E68100605E4D /* Sources */,
+				A2A2F2E71CF7E68100605E4D /* Frameworks */,
+				A2A2F2E81CF7E68100605E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A2F2EC1CF7E68100605E4D /* PBXTargetDependency */,
+			);
+			name = LTRandomRefreshTests;
+			productName = RefreshTests;
+			productReference = A2A2F2EA1CF7E68100605E4D /* LTRandomRefresh.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A2F2F41CF7E68100605E4D /* LTRandomRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshUITests" */;
+			buildPhases = (
+				A2A2F2F11CF7E68100605E4D /* Sources */,
+				A2A2F2F21CF7E68100605E4D /* Frameworks */,
+				A2A2F2F31CF7E68100605E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A2F2F71CF7E68100605E4D /* PBXTargetDependency */,
+			);
+			name = LTRandomRefreshUITests;
+			productName = RefreshUITests;
+			productReference = A2A2F2F51CF7E68100605E4D /* LTRandomRefresh.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A2F2C91CF7E68100605E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lotic;
+				TargetAttributes = {
+					A2A2F2D01CF7E68100605E4D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FJU278DU9P;
+					};
+					A2A2F2E91CF7E68100605E4D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FJU278DU9P;
+						TestTargetID = A2A2F2D01CF7E68100605E4D;
+					};
+					A2A2F2F41CF7E68100605E4D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FJU278DU9P;
+						TestTargetID = A2A2F2D01CF7E68100605E4D;
+					};
+				};
+			};
+			buildConfigurationList = A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRandomRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A2F2C81CF7E68100605E4D;
+			productRefGroup = A2A2F2D21CF7E68100605E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */,
+				A2A2F2E91CF7E68100605E4D /* LTRandomRefreshTests */,
+				A2A2F2F41CF7E68100605E4D /* LTRandomRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A2F2CF1CF7E68100605E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A2F2E41CF7E68100605E4D /* LaunchScreen.storyboard in Resources */,
+				A2A2F2E11CF7E68100605E4D /* Assets.xcassets in Resources */,
+				A2A2F2DF1CF7E68100605E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2E81CF7E68100605E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2F31CF7E68100605E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A2F2CD1CF7E68100605E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FDF2A51D0015310001A918 /* UITableView+LTRefreshView.m in Sources */,
+				A2A2F3191CF820BD00605E4D /* UIScrollView+LTRefreshView.m in Sources */,
+				A2A2F2DC1CF7E68100605E4D /* ViewController.m in Sources */,
+				A2A2F3131CF8189300605E4D /* LTRefresh.m in Sources */,
+				A2A2F2D91CF7E68100605E4D /* AppDelegate.m in Sources */,
+				A2FDF2A81D0015C80001A918 /* TableViewController.m in Sources */,
+				A2A2F2D61CF7E68100605E4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2E61CF7E68100605E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A2F2EF1CF7E68100605E4D /* RefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A2F2F11CF7E68100605E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A2F2FA1CF7E68100605E4D /* RefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A2F2EC1CF7E68100605E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */;
+			targetProxy = A2A2F2EB1CF7E68100605E4D /* PBXContainerItemProxy */;
+		};
+		A2A2F2F71CF7E68100605E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A2F2D01CF7E68100605E4D /* LTRandomRefresh */;
+			targetProxy = A2A2F2F61CF7E68100605E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A2F2DD1CF7E68100605E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A2F2DE1CF7E68100605E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A2F2E21CF7E68100605E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A2F2E31CF7E68100605E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A2F2FC1CF7E68100605E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2A2F2FD1CF7E68100605E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A2F2FF1CF7E68100605E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Refresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.Refresh;
+				PRODUCT_NAME = LTRandomRefresh;
+			};
+			name = Debug;
+		};
+		A2A2F3001CF7E68100605E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Refresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.Refresh;
+				PRODUCT_NAME = LTRandomRefresh;
+			};
+			name = Release;
+		};
+		A2A2F3021CF7E68100605E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshTests;
+				PRODUCT_NAME = LTRandomRefresh;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRandomRefresh.app/LTRandomRefresh";
+			};
+			name = Debug;
+		};
+		A2A2F3031CF7E68100605E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshTests;
+				PRODUCT_NAME = LTRandomRefresh;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTRandomRefresh.app/LTRandomRefresh";
+			};
+			name = Release;
+		};
+		A2A2F3051CF7E68100605E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshUITests;
+				PRODUCT_NAME = LTRandomRefresh;
+				TEST_TARGET_NAME = Refresh;
+			};
+			name = Debug;
+		};
+		A2A2F3061CF7E68100605E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ltc.RefreshUITests;
+				PRODUCT_NAME = LTRandomRefresh;
+				TEST_TARGET_NAME = Refresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A2F2CC1CF7E68100605E4D /* Build configuration list for PBXProject "LTRandomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A2F2FC1CF7E68100605E4D /* Debug */,
+				A2A2F2FD1CF7E68100605E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A2F2FE1CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A2F2FF1CF7E68100605E4D /* Debug */,
+				A2A2F3001CF7E68100605E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A2F3011CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A2F3021CF7E68100605E4D /* Debug */,
+				A2A2F3031CF7E68100605E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A2F3041CF7E68100605E4D /* Build configuration list for PBXNativeTarget "LTRandomRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A2F3051CF7E68100605E4D /* Debug */,
+				A2A2F3061CF7E68100605E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A2F2C91CF7E68100605E4D /* Project object */;
+}
